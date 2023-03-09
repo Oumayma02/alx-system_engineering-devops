@@ -1,2 +1,3 @@
 #!/bin/bash
-groups $(whoami)
+username=$(whoami | awk '{print $1}')
+echo $username
