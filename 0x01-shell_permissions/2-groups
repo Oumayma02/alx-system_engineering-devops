@@ -1,3 +1,2 @@
 #!/bin/bash
-username=$(whoami | awk '{print $1}')
-echo $username
+echo $"(whoami | awk '{print $1}')"
