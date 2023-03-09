@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $"(whoami | awk '{print $1}')"
+echo "$(whoami | awk '{print $1}')"
